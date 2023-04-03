@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    margin: auto;
+
+}
+
+nav {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    box-shadow: 0px 1px 3px black;
+}
+
+nav ul {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+}
+
+nav ul li {
+    margin: auto;
+    padding: 1rem 0.25rem;
+}
+
+header {
+    height: 30rem;
+    max-height: 70%;
+    width: 80rem;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header h1 {
+    padding: 5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+#about {
+    margin: auto;
+    padding: 2rem 2rem;
+    background-color: rgb(65, 65, 65);
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px black;
+    width: 75%;
+    max-width: 40rem;
+
+}
+
+#about h2 {
+    margin: auto;
+    padding: 0;
+}
+
+#about p {
+    margin: 1.5rem 1rem 1.5rem 0.5rem;
+
+}
+
+#villages {
+    margin: 1rem 0;
+    padding: 2rem 0 2rem 0;
+}
+
+#villages ul {
+    display: flex;
+    list-style: none;
+}
+
+#villages ul li {
+    margin: auto;
+    padding: 1rem 1rem;
+    background-color: rgb(65, 65, 65);
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px black;
+    cursor: pointer;
+}
+
+footer {
+    padding-top: 3rem;
+}
