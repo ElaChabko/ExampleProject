@@ -80,6 +80,13 @@ header h1 {
     box-shadow: 0px 1px 3px black;
     cursor: pointer;
 }
+#villages ul li:hover {
+    background-color: rgb(120, 120, 120);
+    box-shadow: 0px 1px 3px white;
+    transform: scale(1.05);
+}
+
+
 
 footer {
     padding-top: 3rem;
